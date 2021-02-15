@@ -1,0 +1,20 @@
+<h1>Our Answer view</h1>
+
+<body>
+  <h2>
+    <ul>
+      <li><%= answer = params[:ask]%></li>
+      <li>You</li>
+    </ul>
+  </h2>
+
+  <h3>
+    <ul>
+      <li><%= @answer %></li>
+      <li>Your coach</li>
+    </ul>
+  </h3>
+
+</body>
+
+<%= link_to "Back to previous page", ask_path%>
